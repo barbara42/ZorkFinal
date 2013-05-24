@@ -53,14 +53,5 @@ public class PlaceMap {
 	}
 	
 	public Map<String, Place> getPlaceMap (){ return placeMap; }
-	
-	//PUT IN MAIN CLASS 
-	/*prepares ZorkData file to be read*/
-	public static BufferedReader initFile(FileInputStream newFile) throws IOException
-	{
-		InputStreamReader inReader = new InputStreamReader(newFile);
-		BufferedReader reader = new BufferedReader (inReader);
-		return reader; 
-	}
 
 }
